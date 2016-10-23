@@ -1,0 +1,119 @@
+.contentC{
+    overflow: hidden;
+    width: 100%;
+    background: url("../images/2-list_03.png") repeat-x;
+}
+.contentCon{
+    overflow: hidden;
+    width: 1010px;
+    background: #fff;
+    margin: 0 auto;
+}
+/*左侧内容样式*/
+.contentCon .contentLeft{
+    float: left;
+    width: 225px;
+    margin:0px 28px 20px;
+}
+.contentCon h1{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    border-top:3px  solid #0a6367;
+    line-height: 35px;
+    text-align: center;
+}
+.contentLeft ul{
+    overflow: hidden;
+}
+.contentLeft ul>li.line{
+    float: left;
+    width: 225px;
+    height: 1px;
+    background-color: black;
+    border-bottom: none;
+}
+.contentLeft ul>li{
+    float: left;
+    width: 215px;
+
+}
+.contentLeft ul>li p{
+    float: left;
+    color: #f48898;
+    width: 5px;
+    line-height: 25px;
+    margin-right: 10px;
+}
+.contentLeft ul>li span{
+    float: left;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px dashed #ccc;
+}
+.contentLeft ul>li span.color{
+    color:#f48898;
+}
+.contentLeft ul>li span.spanTop{
+    width: 200px;
+    height: 100px;
+}
+.spanTop img{
+    width: 90px;
+    height:60px;
+    border:1px solid #ccc;
+    margin: 5px;
+    float: left;
+}
+/*右侧内容样式*/
+.contentCon .contentRight{
+    float: left;
+}
+.contentRight h2{
+    width: 714px;
+    height: 38px;
+    margin-top: 15px;
+    line-height: 35px;
+    border-bottom: 1px solid #534254;
+}
+.contentRight ul.contentPic{
+    float: left;
+    width: 714px;
+    padding: 0px 7px;
+    margin-bottom: 10px;
+}
+.contentRight ul.contentPic>li{
+    float: left;
+    margin: 10px;
+    width: 155px;
+    height:165px;
+}
+.contentRight ul.contentPic>li span{
+    display: block;
+    margin: 5px 0px;
+}
+.contentRight ul.num{
+    width: 630px;
+    height: 30px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+.contentRight ul.num>li{
+    float: left;
+    line-height: 20px;
+    margin: 3px;
+}
+.contentRight ul.num>li.one{
+    width: 18px;
+    height:20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color:#ccc;
+}
+.contentRight ul.num>li.two{
+    width:33px;
+}
+.contentRight ul.num>li.three{
+    width:45px;
+}

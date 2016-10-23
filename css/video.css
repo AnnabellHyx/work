@@ -1,0 +1,151 @@
+.contentVideo {
+    width: 1010px;
+    background-color: #fff;
+    margin:0px auto;
+    overflow: hidden;
+}
+.contentVideo h2,.videoTop h1{
+    color: #424243;
+    margin: 30px 0px 0px 30px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.contentVideo .videoTop h1{
+    font-size: 16px;
+    font-weight: bold;
+    color:#000;
+}
+.contentVideo .videoTop ul.oneUl{
+    margin: 30px 30px 0px;
+    overflow: hidden;
+    background-color: #303030;
+}
+.contentVideo .videoTop ul.oneUl>li{
+    float:left;
+}
+.contentVideo .videoTop ul.oneUl>li.video{
+    width: 670px;
+    height:500px;
+    margin:0px 5px 0px 0px;
+    padding: 0px;
+}
+.contentVideo .videoTop ul.oneUl>li.title{
+    width: 220px;
+    height: 35px;
+    padding: 20px;
+}
+.videoTop ul.oneUl>li.title h3{
+    font-weight: bold;
+    color: #fff;
+    font-size:14px;
+}
+.contentVideo .videoTop ul.oneUl>li {
+    width: 250px;
+    height: 65px;
+    margin: 5px 0px;
+    padding: 5px;
+    overflow: hidden;
+}
+.contentVideo .videoTop ul.oneUl>li img{
+    float: left;
+    margin-right: 10px;
+}
+.contentVideo .videoTop ul.oneUl>li p{
+    color: #fff;
+    margin:0px 0px 10px 20px;
+}
+.contentVideo .videoTop ul.oneUl>li span{
+    float: left;
+    color:#ccc;
+    margin-right: 15px;
+}
+.contentVideo .videoTop ul.twoUl{
+    width: 950px;
+    margin: 0px 30px 30px;
+    overflow: hidden;
+    background-color: #fff;
+    border:1px solid #ccc;
+}
+.contentVideo .videoTop ul.twoUl>li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    border-right: 1px solid #ccc;
+    line-height: 40px;
+    color: #ccc;
+}
+.contentVideo .videoTop ul.twoUl>li img{
+     margin: 12px 0px 0px 30px;
+ }
+.videoTop ul.twoUl>li.lastLi{
+    width: 547px;
+    border-right: 0px;
+
+}
+.contentVideo .videoPro h1{
+    font-size: 14px;
+    margin: 0px 30px;
+}
+.contentVideo .videoPro ul{
+    overflow: hidden;
+    width: 950px;
+    margin: 20px 30px;
+}
+.contentVideo .videoPro ul>li{
+    float:left;
+    width: 740px;
+    margin: 5px 0px;
+}
+.contentVideo .videoPro ul>li.left{
+    width: 186px;
+    height:125px ;
+    margin-right: 10px;
+}
+.contentVideo .comment ,.contentVideo .blockCom{
+    overflow: hidden;
+    margin: 0px 30px 15px;
+}
+.contentVideo .comment textarea{
+    margin-bottom: 10px;
+}
+.contentVideo .comment p,.comment button{
+    float: right;
+    margin-bottom: 10px;
+}
+.contentVideo .blockCom h1{
+    width: 60px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    border-bottom:3px solid #0a6367 ;
+}
+.contentVideo .blockCom h3{
+    color: #ccc;
+    width: 950px;
+    height: 25px;
+    border-top:1px solid #ccc;
+}
+.contentVideo .blockCom ul>li{
+    overflow: hidden;
+    width: 950px;
+    height: 130px;
+    border-bottom: 1px solid #ccc;
+}
+.contentVideo .blockCom ul>li img{
+    width:40px ;
+    float: left;
+    margin: 25px 10px 10px 10px;
+}
+.contentVideo .blockCom ul>li p{
+    margin: 0px 0px 5px 10px;
+    color: #ccc;
+}
+.contentVideo .blockCom ul>li p.name{
+    margin-top: 25px;
+    color: black;
+}
+.contentVideo .blockCom ul>li span{
+    float: right;
+    margin-right: 20px;
+    color: #0091cd;
+}

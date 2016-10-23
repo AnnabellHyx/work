@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+}
+li{
+    list-style:none;
+}
+article,section,nav,aside,header,footer,address{
+    display: block;
+}
+/*登录页面头部样式*/
+.top{
+    overflow: hidden;
+    background: url("../images/1-index_04.png") repeat-x ;
+}
+.top ul{
+    float: left;
+}
+.top>ul>li{
+    float:left;
+}
+.top>ul .logo{
+    width: 340px;
+    height: 78px;
+    margin-left: 100px;
+}
+.top>ul input{
+    float: left;
+    width: 400px;
+    height: 40px;
+    margin: 19px 0px 19px 180px;
+}
+.top>ul .search{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top:19px;
+    margin-right: 25px;
+}
+.top>ul .people,.top>ul .loginBtn{
+    float:left;
+    height: 30px;
+    border: 1px solid #dadada;
+    margin-top:23px;
+
+}
+.top>ul .people{
+    width:30px;
+    background: url("../images/8-content_03.png");
+}
+
+.top>ul .loginBtn{
+    width: 50px;
+    text-align: center;
+    line-height: 30px;
+    color:#99999b;
+    background: url("../images/8-content_05.png") repeat-x;
+}
+/*导航样式*/
+.mainNav{
+    overflow: hidden;
+    background-color: #158687;
+}
+.mainNav>ul{
+    float: left;
+    margin-left: 210px;
+}
+.mainNav>ul>li{
+    float: left;
+    margin: 15px 30px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+/*广告栏样式*/
+.ad{
+    overflow: hidden;
+
+}
+.ad img{
+    display: block;
+    width: 1350px;
+    height: 400px;
+    margin: 0 auto;
+}
+/*内容区第一部分样式*/
+.content{
+    overflow: hidden;
+    width: 100%;
+    background: url("../images/1-index-17.png") repeat-x;
+}
+.content1,.content2{
+    overflow: hidden;
+    width: 1010px;
+    background: #fff;
+    margin: 0 auto;
+}
+.content1 section h1,.c2left section h1{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 980px;
+    height: 44px;
+    border-left:12px solid #a5dacc;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 44px;
+    color: #424243;
+    padding-left: 5px;
+}
+.content1 section ul{
+    overflow: hidden;
+    margin: 0px 5px;
+    padding: 5px;
+}
+.content1 section ul>li{
+    float: left;
+    margin:5px;
+    width: 155px;
+    height: 100px;
+}
+.content1 section ul .oneMov{
+    width: 320px;
+    height: 210px;
+}
+/*中间第二部分-左侧*/
+.content2 .c2left{
+    float: left;
+    width: 832px;
+}
+.content2 .c2left section h1{
+    width: 700px;
+    float: left;
+}
+.content2 .c2left section .more{
+    float: left;
+    margin-top: 20px;
+    width: 110px;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #ccc;
+    color:#9999a5;
+}
+.content2 .c2left section.first ul{
+    overflow: hidden;
+    margin-left: 5px;
+    float:left;
+   padding: 5px 0px 5px 5px;
+
+}
+.c2left section.first ul>li{
+    float: left;
+    width: 155px;
+    height: 180px;
+    margin: 5px;
+}
+.content2 .c2left section ul #right{
+    margin-right: 0px;
+}
+.content2 .c2left section ul>li span{
+    display: block;
+    margin: 5px 0px;
+}
+.content2 .c2left section.last{
+    width: 817px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.c2left section.last ul{
+    float: left;
+    width: 817px;
+}
+.c2left section.last ul>li{
+    float: left;
+}
+.c2left section.last nav li{
+    font-size: 16px;
+    color:#ccc;
+    margin: 10px 20px 10px 0px;
+}
+.c2left section.last nav li.current{
+    color:#424243;
+}
+.c2left section.last .lastPic li{
+    float: left;
+    width: 155px;
+    height: 103px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+/*右侧样式*/
+.content2 .c2right{
+    float: left;
+    margin-left: 18px;
+    overflow: hidden;
+}
+.content2 .c2right h1{
+    width: 154px;
+    margin-top: 20px;
+    height: 44px;
+    border-bottom: 1px solid #a5dacc;
+    font-size: 16px;
+    line-height: 44px;
+    color: #424243;
+}
+.content2 .c2right ul{
+    overflow: hidden;
+    margin: 5px;
+}
+.content2 .c2right ul>li{
+    margin: 5px 0px;
+}
+.c2right ul>li span{
+    float: left;
+    width: 20px;
+    height: 15px;
+    background-color: #ccc;
+    text-align: center;
+    color:#fff;
+    margin-right:20px;
+
+}
+.c2right ul>li p{
+    margin-top: 20px;
+    line-height: 15px;
+
+}
+/*底部样式*/
+
+.foot ul{
+    width: 1010px;
+    height: 36px;
+    border:1px solid #A5DACC;
+    margin: 10px auto 40px;
+    overflow: hidden;
+}
+.foot ul>li{
+    float:left;
+    line-height: 36px;
+    margin: 0 11px;
+}
+.foot ul input{
+    width: 150px;
+    height: 20px;
+}
+.foot .footLast{
+    text-align: center;
+    padding-bottom: 20px;
+}
